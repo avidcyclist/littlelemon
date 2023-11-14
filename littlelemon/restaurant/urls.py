@@ -1,7 +1,7 @@
 from django.contrib import admin 
 from django.urls import path 
 from . import views
-from .views import MenuItemView, SingleMenuItemView
+from .views import MenuItemView, SingleMenuItemView, index
   
 urlpatterns = [ 
    path('menu/items/', MenuItemView.as_view(), name='menu-list-create'),
